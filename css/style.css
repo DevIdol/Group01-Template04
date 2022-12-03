@@ -1,0 +1,750 @@
+/*home page ad 
+------------------*/
+.ad {
+  background-color: #354e57;
+}
+
+.ad .l-inner span {
+  display: block;
+  padding: 12px 0;
+  color: #f7f5e6;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/*card header 
+--------------------------*/
+.card-header {
+  padding: 30px 0;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.card-header .most-popular {
+  float: left;
+  width: 50%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.card-header .shop-all-products {
+  float: right;
+  width: 50%;
+  text-decoration: underline;
+  text-align: right;
+}
+
+/*home page mainvisual 
+--------------------------*/
+.sec-mainvisual {
+  padding-top: 150px;
+  padding-bottom: 190px;
+  padding-left: 122px;
+  background: url("../img/top/img_home_bg.png") no-repeat center/cover;
+  color: #2e2e22;
+}
+
+.sec-mainvisual .main-text-blk {
+  position: relative;
+}
+
+.sec-mainvisual .mainvisual-ttl {
+  line-height: 1.16;
+  padding: 20px 0;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.sec-mainvisual .mainvisual-paragraph {
+  line-height: 1.37;
+  margin-left: 0px;
+  padding-top: 4px;
+  padding-right: 800px;
+  padding-bottom: 38px;
+  font-weight: 400;
+  letter-spacing: -0.1px;
+}
+
+.sec-mainvisual .mainvisual-btn {
+  padding: 9px 39px;
+  border: 1px solid #354e57;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.sec-mainvisual .mainvisual-btn:hover {
+  background-color: #354e57;
+  color: #ffffff;
+  transition: 0.8s;
+  -webkit-transition: 0.8s;
+}
+
+.sec-mainvisual .spn-new {
+  top: -7%;
+  left: 0;
+}
+
+/*category 
+-------------------------*/
+.sec-category {
+  width: 87%;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
+.sec-category ul li {
+  float: left;
+  width: 21.12%;
+  margin-right: 5.1%;
+  cursor: pointer;
+}
+
+.sec-category ul li:nth-child(4n) {
+  margin-right: 0;
+}
+
+.sec-category .cmn-card .spn-new {
+  top: 9px;
+  left: 11px;
+}
+
+/*-category-two 
+-------------------------*/
+.sec-category-two {
+  width: 87%;
+  margin: 0 auto;
+  padding-top: 34px;
+  padding-bottom: 42px;
+}
+
+.sec-category-two .cmn-card {
+  margin-bottom: 60px;
+}
+
+.sec-category-two ul li {
+  float: left;
+  width: 21.12%;
+  margin-right: 5.1%;
+  cursor: pointer;
+}
+
+.sec-category-two ul li:nth-child(4n) {
+  margin-right: 0;
+}
+
+.sec-category-two ul li .btn-add-to-cart {
+  margin-top: -1px;
+}
+
+/*common blk one 
+-------------------------*/
+.sec-cmn-blk-one {
+  margin-bottom: 17px;
+}
+
+.sec-cmn-blk-one .cmn-blk .txt-blk {
+  float: left;
+  padding-left: 170px;
+  background-color: #547665;
+}
+
+.sec-cmn-blk-one .cmn-blk .img-blk {
+  float: right;
+}
+
+/*common blk two 
+-------------------------*/
+.sec-cmn-blk-two {
+  margin-bottom: 19px;
+}
+
+.sec-cmn-blk-two .cmn-blk .txt-blk {
+  float: right;
+  padding-left: 80px;
+  background-color: #d1b0a8;
+}
+
+.sec-cmn-blk-two .cmn-blk .img-blk {
+  float: left;
+}
+
+/*skincare product card 
+--------------------------*/
+.sec-skincare-product {
+  margin-top: 84px;
+  padding-bottom: 28px;
+  text-align: center;
+}
+
+.sec-skincare-product ul {
+  margin-top: 55px;
+  padding: 0 151px;
+  max-width: 1180px;
+}
+
+.sec-skincare-product ul li {
+  float: left;
+  width: 28%;
+  margin-right: 8%;
+  margin-bottom: 45px;
+  cursor: pointer;
+}
+
+.sec-skincare-product ul li:nth-child(2),
+.sec-skincare-product ul li:nth-child(5) {
+  margin-right: 6.1%;
+}
+
+.sec-skincare-product ul li:nth-child(3n) {
+  margin-right: 0;
+}
+
+/*home page about 
+-------------------------*/
+.home-about {
+  width: 100%;
+  padding: 62px 0px 60px 24.8%;
+  background-color: #eef3f4;
+  text-align: center;
+}
+
+.home-about ul li {
+  float: left;
+  width: 150px;
+  margin-right: 11%;
+  color: #354e57;
+}
+
+.home-about ul li:nth-child(2) {
+  margin-right: 7.5%;
+}
+
+.home-about ul li img {
+  padding-bottom: 9px;
+}
+
+.home-about ul li .about-paragraph {
+  line-height: 1.1;
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+
+.home-about ul li .learn-more-lnk {
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+/*  Ipad  */
+@media screen and (min-width: 768px) and (max-width: 1180px) {
+  /*home page ad 
+------------------*/
+  .ad .l-inner span {
+    display: block;
+    padding: 1.56vw 0;
+    color: #f7f5e6;
+    font-size: 2.08vw;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  /*card header 
+--------------------------*/
+  .card-header {
+    padding: 3.91vw 0;
+    font-size: 1.82vw;
+    font-weight: 700;
+  }
+
+  .card-header .most-popular {
+    float: left;
+    width: 50%;
+    text-align: left;
+  }
+
+  .card-header .shop-all-products {
+    float: right;
+    width: 50%;
+    text-decoration: underline;
+    text-align: right;
+  }
+
+  /*home page mainvisual 
+--------------------------*/
+  .sec-mainvisual {
+    padding-top: 8.07vw;
+    padding-bottom: 34.9vw;
+    padding-left: 4.43vw;
+    background: url("../img/top/img_home_bg_ip.png") no-repeat center/cover;
+    color: #2e2e22;
+  }
+
+  .sec-mainvisual .main-text-blk {
+    position: relative;
+  }
+
+  .sec-mainvisual .mainvisual-ttl {
+    line-height: 1.16;
+    padding: 2.34vw 0;
+    font-size: 6.25vw;
+    font-weight: 700;
+    letter-spacing: 0.03vw;
+  }
+
+  .sec-mainvisual .mainvisual-paragraph {
+    line-height: 1.5;
+    margin-left: 0vw;
+    padding-top: 0.2vw;
+    padding-right: 39.06vw;
+    padding-bottom: 4.69vw;
+    font-weight: 400;
+    letter-spacing: -0.01vw;
+  }
+
+  .sec-mainvisual .mainvisual-btn {
+    padding: 1.04vw 5.08vw;
+    border: 0.13vw solid #354e57;
+    font-size: 1.82vw;
+    font-weight: 700;
+  }
+
+  .sec-mainvisual .mainvisual-btn:hover {
+    color: #ffffff;
+    transition: 0.8s;
+    -webkit-transition: 0.8s;
+  }
+
+  .sec-mainvisual .spn-new {
+    top: -8%;
+    left: 0;
+  }
+
+  /*category 
+-------------------------*/
+  .sec-category {
+    width: 74.3%;
+    margin: 0 auto;
+    padding-top: 1.3vw;
+    padding-bottom: 2.6vw;
+  }
+
+  .sec-category ul li {
+    float: left;
+    width: 44.6%;
+    margin-right: 10.8%;
+    margin-bottom: 5.21vw;
+    cursor: pointer;
+  }
+
+  .sec-category .cmn-card .spn-new {
+    top: 11px;
+  }
+
+  .sec-category ul li:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .sec-category ul li .btn-add-to-cart {
+    margin-top: 0vw;
+  }
+
+  /*-category-two 
+-------------------------*/
+  .sec-category-two {
+    width: 74.3%;
+    margin: 0 auto;
+    padding-top: 4.17vw;
+    padding-bottom: 2.73vw;
+  }
+
+  .sec-category-two .cmn-card {
+    margin-bottom: 5.21vw;
+  }
+
+  .sec-category-two ul {
+    padding-top: 1.43vw;
+  }
+
+  .sec-category-two ul li {
+    float: left;
+    width: 44.6%;
+    margin-right: 10.8%;
+    cursor: pointer;
+  }
+
+  .sec-category-two ul li:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .sec-category-two ul li .btn-add-to-cart {
+    margin-top: -0.13vw;
+  }
+
+  /*common blk one 
+-------------------------*/
+  .sec-cmn-blk-one {
+    margin-bottom: 2.21vw;
+  }
+
+  .sec-cmn-blk-one .cmn-blk .txt-blk {
+    float: none;
+    width: 100%;
+    padding-top: 13.15vw;
+    padding-left: 10.42vw;
+  }
+
+  .sec-cmn-blk-one .cmn-blk .img-blk {
+    float: none;
+    width: 100%;
+  }
+
+  /*common blk two 
+-------------------------*/
+  .sec-cmn-blk-two {
+    margin-bottom: 0.26vw;
+  }
+
+  .sec-cmn-blk-two .cmn-blk .txt-blk {
+    float: none;
+    width: 100%;
+    margin-top: -0.39vw;
+    padding-top: 12.89vw;
+    padding-right: 3.91vw;
+    padding-bottom: 14.45vw;
+    padding-left: 10.42vw;
+  }
+
+  .sec-cmn-blk-two .cmn-blk .img-blk {
+    float: none;
+    width: 100%;
+  }
+
+  /*skincare product card 
+--------------------------*/
+  .sec-skincare-product {
+    margin-top: 7.16vw;
+    padding-bottom: 1.17vw;
+    text-align: center;
+  }
+
+  .sec-skincare-product ul {
+    margin-top: 6.51vw;
+    padding: 0 4.56vw;
+  }
+
+  .sec-skincare-product ul li {
+    float: left;
+    width: 29%;
+    margin-right: 6.5%;
+    margin-bottom: 5.86vw;
+    cursor: pointer;
+  }
+
+  .sec-skincare-product ul li:nth-child(2),
+  .sec-skincare-product ul li:nth-child(5) {
+    margin-right: 6.5%;
+  }
+
+  .sec-skincare-product ul li:nth-child(3n) {
+    margin-right: 0;
+  }
+
+  /*home page about 
+-------------------------*/
+  .home-about {
+    width: 100%;
+    padding: 0vw 0vw 7.94vw 9.24vw;
+    background-color: #eef3f4;
+    text-align: center;
+  }
+
+  .home-about ul li {
+    float: left;
+    width: 19.53vw;
+    margin-right: 10.68vw;
+    padding-top: 7.81vw;
+  }
+
+  .home-about ul li:nth-child(2) {
+    margin-right: 6.38vw;
+  }
+
+  .home-about ul li img {
+    padding-bottom: 1.04vw;
+  }
+
+  .home-about ul li .about-paragraph {
+    line-height: 1.1;
+    padding-bottom: 2.34vw;
+    font-weight: 500;
+  }
+
+  .home-about ul li .learn-more-lnk {
+    font-size: 1.56vw;
+    font-weight: 400;
+  }
+}
+
+/*  SP  */
+@media screen and (max-width: 767.9px) {
+  /*home page ad 
+------------------*/
+  .ad .l-inner span {
+    display: block;
+    padding: 2.34vw 0vw 2.81vw 0vw;
+    font-size: 2.5vw;
+    font-weight: 400;
+  }
+
+  /*card header 
+--------------------------*/
+  .card-header {
+    padding: 4.69vw 0;
+    font-size: 2.19vw;
+    font-weight: 700;
+  }
+
+  .card-header .most-popular {
+    width: 50%;
+    text-align: left;
+  }
+
+  .card-header .shop-all-products {
+    width: 50%;
+  }
+
+  /*home page mainvisual 
+--------------------------*/
+  .sec-mainvisual {
+    margin-top: 11.56vw;
+    padding-top: 80.63vw;
+    padding-bottom: 10.78vw;
+    padding-left: 11.56vw;
+    background: url("../img/top/img_home_bg_sp.png") no-repeat top/contain;
+    background-color: #e2e6e9;
+    color: #2e2e22;
+  }
+
+  .sec-mainvisual .main-text-blk {
+    position: relative;
+  }
+
+  .sec-mainvisual .mainvisual-ttl {
+    line-height: 1.16;
+    padding: 2.81vw 0;
+    font-size: 7.5vw;
+    font-weight: 700;
+    letter-spacing: 0.03vw;
+  }
+
+  .sec-mainvisual .main-text-blk {
+    position: relative;
+  }
+
+  .sec-mainvisual .mainvisual-paragraph {
+    line-height: 1.5;
+    margin-left: 0vw;
+    padding-top: 0.23vw;
+    padding-right: 15.63vw;
+    padding-bottom: 4.38vw;
+    font-weight: 400;
+    letter-spacing: -0.02vw;
+  }
+
+  .sec-mainvisual .mainvisual-btn {
+    padding: 1.25vw 6.09vw;
+    font-size: 2.19vw;
+    font-weight: 700;
+  }
+
+  .sec-mainvisual .mainvisual-btn:hover {
+    color: #ffffff;
+    transition: 0.8s;
+    -webkit-transition: 0.8s;
+  }
+
+  .sec-mainvisual .spn-new {
+    top: -9%;
+    left: 0%;
+  }
+
+  /*category 
+-------------------------*/
+  .sec-category {
+    width: 89%;
+    margin: 0 auto;
+    padding-top: 1.56vw;
+    padding-bottom: 3.13vw;
+  }
+
+  .sec-category ul {
+    margin-top: 0.16vw;
+  }
+
+  .sec-category ul li {
+    float: left;
+    width: 44.6%;
+    margin-right: 10.8%;
+    margin-bottom: 6.41vw;
+    cursor: pointer;
+  }
+
+  .sec-category .cmn-card .spn-new {
+    top: 11px;
+  }
+
+  .sec-category ul li:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .sec-category ul li .btn-add-to-cart {
+    margin-top: -0.16vw;
+  }
+
+  /*-category-two 
+-------------------------*/
+  .sec-category-two {
+    width: 89%;
+    margin: 0 auto;
+    padding-top: 1.25vw;
+    padding-bottom: 3.13vw;
+  }
+
+  .sec-category-two .cmn-card {
+    margin-bottom: 6.41vw;
+  }
+
+  .sec-category-two ul {
+    padding-top: 0.47vw;
+  }
+
+  .sec-category-two ul li {
+    float: left;
+    width: 44.6%;
+    margin-right: 10.8%;
+  }
+
+  .sec-category-two ul li:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .sec-category-two ul li .btn-add-to-cart {
+    margin-top: -0.16vw;
+  }
+
+  /*common blk one 
+-------------------------*/
+  .sec-cmn-blk-one {
+    margin-bottom: 0vw;
+  }
+
+  .sec-cmn-blk-one .cmn-blk .txt-blk {
+    float: none;
+    width: 100%;
+    padding-top: 15.78vw;
+    padding-right: 6.25vw;
+    padding-bottom: 17.03vw;
+    padding-left: 12.5vw;
+  }
+
+  .sec-cmn-blk-one .cmn-blk .img-blk {
+    float: none;
+    width: 100%;
+  }
+
+  /*common blk two 
+-------------------------*/
+  .sec-cmn-blk-two {
+    margin-bottom: 0.16vw;
+  }
+
+  .sec-cmn-blk-two .cmn-blk .txt-blk {
+    float: none;
+    width: 100%;
+    margin-top: -0.47vw;
+    padding-top: 15.47vw;
+    padding-right: 4.69vw;
+    padding-bottom: 17.34vw;
+    padding-left: 12.5vw;
+  }
+
+  .sec-cmn-blk-two .cmn-blk .img-blk {
+    float: none;
+    width: 100%;
+  }
+
+  /*skincare product card 
+--------------------------*/
+  .sec-skincare-product {
+    margin-top: 8.59vw;
+    padding-bottom: 0vw;
+    text-align: center;
+  }
+
+  .sec-skincare-product ul {
+    margin-top: 6.56vw;
+    padding: 0vw 0vw;
+  }
+
+  .sec-skincare-product ul li {
+    float: none;
+    width: 38.59vw;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    cursor: pointer;
+  }
+
+  .sec-skincare-product ul li:nth-child(2) {
+    margin: 0 auto;
+    padding-bottom: 43px;
+  }
+
+  .sec-skincare-product ul li:nth-child(3),
+  .sec-skincare-product ul li:nth-child(4),
+  .sec-skincare-product ul li:nth-child(5),
+  .sec-skincare-product ul li:nth-child(6) {
+    margin: 0 auto;
+    padding-bottom: 45px;
+  }
+
+  /*home page about 
+-------------------------*/
+  .home-about {
+    width: 100%;
+    padding: 0vw 0vw 6.25vw 11.09vw;
+    background-color: #eef3f4;
+    text-align: center;
+  }
+
+  .home-about ul li {
+    float: none;
+    width: 23.44vw;
+    margin-bottom: 3.44vw;
+    margin-left: 26.56vw;
+    padding-top: 9.38vw;
+  }
+
+  .home-about ul li:nth-child(2) {
+    margin-bottom: 3.44vw;
+    margin-left: 26.56vw;
+  }
+
+  .home-about ul li img {
+    padding-bottom: 1.25vw;
+  }
+
+  .home-about ul li .about-paragraph {
+    line-height: 1.1;
+    padding-bottom: 2.81vw;
+    font-weight: 500;
+  }
+
+  .home-about ul li .learn-more-lnk {
+    font-size: 1.88vw;
+    font-weight: 400;
+  }
+}
