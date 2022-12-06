@@ -770,16 +770,11 @@
 =================== */
   .product-sec04 .product-sec04-left {
     float: none;
-    width: 100vw;
+    width: 100%;
   }
 
   .product-sec04 .product-sec04-right {
     float: none;
-    width: 100vw;
-  }
-
-  .product-sec04 .product-sec04-left img,
-  .product-sec04 .product-sec04-right img {
     width: 100%;
   }
 
@@ -1162,16 +1157,11 @@
 =================== */
   .product-sec04 .product-sec04-left {
     float: none;
-    width: 100vw;
+    width: 100%;
   }
 
   .product-sec04 .product-sec04-right {
     float: none;
-    width: 100vw;
-  }
-
-  .product-sec04 .product-sec04-left img,
-  .product-sec04 .product-sec04-right img {
     width: 100%;
   }
 
